@@ -4,12 +4,11 @@ entries:
 - title: Sidebar
   levels: one
   folders:
-
-  - title: Products
+  - title: Danh mục
     output: web
     folderitems:
-    - title: News
-      url: /news.html
+    - title: Bài viết mới nhất
+      url: /index.html
       output: web
     - title: Theme instructions
       url: /mydoc_introduction.html
