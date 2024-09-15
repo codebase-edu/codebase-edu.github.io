@@ -1,10 +1,11 @@
 ---
 layout: post
 comments: true
-title:  "C++ Bài 02: Comment trong C++"
-title2:  "C++ Bài 02: Comments trong C++"
+title:  "C Bài 02: Cài đặt IDE"
+title2:  "C Bài 02: Cài đặt IDE"
 date:   2023-01-05 16:05:00
-permalink: cpp-basic-cai-dat-ide.html
+permalink: cpp-basic-02-cai-dat-ide.html
+sidebar: mydoc_sidebar
 mathjax: true
 tags: C++ C++-cơ-bản
 categories: C++-Basic
