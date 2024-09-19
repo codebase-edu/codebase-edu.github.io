@@ -1,10 +1,11 @@
 ---
 layout: post
 comments: true
-title:  "C++ Bài 04: Lệnh xuất ra màn hình cơ bản và nâng cao"
-title2:  "C++ Bài 04: Lệnh xuất ra màn hình cơ bản và nâng cao"
+title:  "Lập trình C Cơ bản bài 09: Nhập dữ liệu với scanf"
+title2:  "Lập trình C Cơ bản bài 09: Nhập dữ liệu với scanf"
 date:   2024-09-15 20:35:00
-permalink: cpp-basic-4-xuat-man-hinh.html
+permalink: /cpp-basic-09-nhap-du-lieu-voi-scanf.html
+sidebar: mydoc_sidebar
 mathjax: true
 tags: C++ C++-cơ-bản
 categories: C++-Basic

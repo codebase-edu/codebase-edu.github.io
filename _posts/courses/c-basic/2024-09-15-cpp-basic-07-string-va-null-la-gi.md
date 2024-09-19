@@ -4,7 +4,7 @@ comments: true
 title:  "Lập trình C Bài 07: String và nul là gì?"
 title2:  "Lập trình C Bài 07: String và nul là gì?"
 date:   2024-09-15 20:35:00
-permalink: cpp-basic-07-string-and-null.html
+permalink: /cpp-basic-07-string-and-null.html
 mathjax: true
 tags: C++ C++-cơ-bản
 categories: C++-Basic

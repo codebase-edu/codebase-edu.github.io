@@ -3,8 +3,8 @@
 topnav:
 - title: Topnav
   items:
-    # - title: Bài viết mới nhất
-    #   url: /news
+    - title: Blog
+      url: /index.html
     - title: GitHub
       external_url: https://github.com/luanphamng/CBE-public-courses
 

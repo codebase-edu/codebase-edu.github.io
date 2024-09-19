@@ -1,10 +1,11 @@
 ---
 layout: post
 comments: true
-title:  "C++ Bài 04: Lệnh xuất ra màn hình cơ bản và nâng cao"
-title2:  "C++ Bài 04: Lệnh xuất ra màn hình cơ bản và nâng cao"
+title:  "C++ Bài 08: Mảng và hiểu rõ về mảng"
+title2:  "C++ Bài 08: Mảng và hiểu rõ về mảng"
 date:   2024-09-15 20:35:00
-permalink: cpp-basic-4-xuat-man-hinh.html
+permalink: /cpp-basic-08-mang-va-hieu-ro-ve-mang.html
+sidebar: mydoc_sidebar
 mathjax: true
 tags: C++ C++-cơ-bản
 categories: C++-Basic

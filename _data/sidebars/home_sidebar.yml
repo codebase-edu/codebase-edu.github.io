@@ -10,9 +10,6 @@ entries:
     - title: Bài viết mới nhất
       url: /index.html
       output: web
-    - title: Khóc học (Đang xây dựng)
-      url: /mydoc_introduction.html
-      output: web
     - title: Lập trình (Đang xây dựng)
       url: /p1_landing_page.html
       output: web

@@ -4,7 +4,7 @@ comments: true
 title:  "Lập trình C Bài 06: Biến là gì và cách khai báo biến"
 title2:  "Lập trình C Bài 06: Biến là gì và cách khai báo biến"
 date:   2024-09-15 20:35:00
-permalink: cpp-basic-06-bien-va-cach-khai-bao.html
+permalink: /cpp-basic-06-bien-va-cach-khai-bao.html
 mathjax: true
 tags: C++ C++-cơ-bản
 categories: C++-Basic

@@ -14,3 +14,4 @@ categories: C++-Basic
 img: /assets/cpp/cpp-programming-400x250.png
 summary: Giới thiệu cấu trúc 1 chương trình C++
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Cuo0yh6j3P8?si=s6EYOy-klR1hIjuE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
