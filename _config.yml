@@ -1,4 +1,4 @@
-repository: tomjoht/documentation-theme-jekyll
+repository: stdcoding/codebase-edu
 
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
@@ -108,7 +108,7 @@ sidebars:
 - product2_sidebar
 - other
 
-description: "Intended as a documentation theme based on Jekyll for technical writers documenting software and other technical products, this theme has all the elements you would need to handle multiple products with both multi-level sidebar navigation, tags, and other documentation features."
+description: "1 Website dạng blog, chia sẻ kiến thức nền tảng về Lập Trình. Với mong muốn phổ cập lập trình có nền tảng, giúp các bạn học sinh, sinh viên, lập trình viên nâng cao kiến thức."
 # the description is used in the feed.xml file
 
 # needed for sitemap.xml file only
