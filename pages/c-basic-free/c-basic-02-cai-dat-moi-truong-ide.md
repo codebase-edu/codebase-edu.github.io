@@ -5,7 +5,7 @@ title:  "C Bài 02: Cài đặt IDE"
 title2:  "C Bài 02: Cài đặt IDE"
 date:   2023-01-05 16:05:00
 permalink: /cpp-basic-02-cai-dat-ide.html
-sidebar: mydoc_sidebar
+sidebar: c_basic_sidebar
 mathjax: true
 tags: C++ C++-cơ-bản
 categories: C++-Basic

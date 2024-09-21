@@ -19,14 +19,20 @@ topnav_dropdowns:
         - title: Facebook
           external_url: https://www.facebook.com/kenhDTLT/
         - title: Tiktok
-          external_url: #
+          external_url: https://www.tiktok.com/kenhDTLT/
     - title: Khóa học
       folderitems:
+
         - title: Lập trình C cơ bản
-          url: /mydoc_introduction.html
+          url: /c-basic-introduction.html
         - title: Lập trình C nâng cao (Đang cập nhập)
           url: /p1_landing_page.html
-        - title: Lập trình C++ (Đang cập nhập)
+        - title: Lập trình C++ cơ bản (Đang cập nhập)
           url: /p2_landing_page.html
-
+        - title: Lập trình ESP32 (Đang cập nhập)
+          url: /p2_landing_page.html
+        - title: Linux Embedded (Đang cập nhập)
+          url: /p2_landing_page.html
+        - title: Android Embedded (Đang cập nhập)
+          url: /p2_landing_page.html
 # Copyright 2021 Google LLC

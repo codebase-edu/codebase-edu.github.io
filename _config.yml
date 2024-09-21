@@ -3,13 +3,13 @@ repository: tomjoht/documentation-theme-jekyll
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: CodeBaseEdu
+topnav_title: CodeBaseTech
 # this appears on the top navigation bar next to the home button
 
-site_title: Jekyll theme for documentation
+site_title: CodeBaseTech
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Copyright 2021 Google LLC
+company_name: Copyright 2024 Google LLC
 # this appears in the footer
 
 github_editme_path:
@@ -35,7 +35,7 @@ exclude:
   - vendor
 # these are the files and directories that jekyll will exclude from the build
 
-feedback_subject_line: CodeBaseEdu
+feedback_subject_line: CodeBaseTech
 
 feedback_email: pnluandx@gmail.com
 # used as a contact email for the Feedback link in the top navigation bar

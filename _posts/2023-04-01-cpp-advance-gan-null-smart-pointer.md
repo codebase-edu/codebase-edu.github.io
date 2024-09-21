@@ -1,18 +1,16 @@
 ---
-layout: post
-comments: true
 title:  "C++ nâng cao: Làm việc với Smartpointer như thế nào cho đúng?"
-title2:  "C++ nâng cao: Làm việc với Smartpointer như thế nào cho đúng?"
-date:   2023-04-01 10:08:00
+summary: "Smartpointer không phải là 1 khái niệm quá mới mẻ trong C++, tuy nhiên nhiều anh em vẫn chưa tận dụng hết khả năng của smartpointer"
+last_updated: 04 01, 2023
+tags: [C++, Smart-Pointer]
+keywords: C++, embedded, smart pointer
 permalink: cpp-advance-lam-viec-voi-smartpointer.html
-mathjax: true
-tags: C++ Smart-Pointer
 categories: C++-Advance
 # sc_project: 11213301
 # sc_security: 8d50f6a5
 img: /assets/cpp/cpp-programming-400x250.png
-summary: Smartpointer không phải là 1 khái niệm quá mới mẻ trong C++, tuy nhiên nhiều anh em vẫn chưa tận dụng hết khả năng của smartpointer
 ---
+
 **Trong trang này:**
 <!-- MarkdownTOC -->
 

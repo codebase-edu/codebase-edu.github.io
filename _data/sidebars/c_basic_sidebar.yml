@@ -1,0 +1,102 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Lập trình C
+  version: (Update 2024.09.05)
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Phần I. Giới thiệu và cài đặt
+    output: web, pdf
+    folderitems:
+    - title: Giới thiệu khóa học Lập Trình C Cơ Bản
+      url: /c-basic-introduction.html
+      output: web, pdf
+      type: homepage
+
+    - title: 01. Lý do nên học và ứng dụng thực tế của C/C++
+      url: /cpp-basic-01-gioi-thieu.html
+      output: web, pdf
+
+    - title: 02. Cài đặt công cụ lập trình
+      url: /cpp-basic-02-cai-dat-ide.html
+      output: web, pdf
+
+  - title: Phần II
+    output: web, pdf
+    folderitems:
+
+    - title: 03. Giải thích hoạt động của 1 chương trình C
+      url: /cpp-basic-03-cau-truc-1-chuong-trinh.html
+      output: web, pdf
+
+    - title: 04. Lệnh xuất ra màn hình cơ bản và nâng cao
+      url: /cpp-basic-04-xuat-man-hinh.html
+      output: web, pdf
+
+    - title: 05. Chú thích và trình bày có quan trọng?
+      url: /cpp-basic-05-chu-thich-va-trinh-bay.html
+      output: web, pdf
+
+    - title: 06. Biến và cách kai báo biến
+      url: /cpp-basic-06-bien-va-cach-khai-bao.html
+      output: web, pdf
+
+    - title: 07. String và null là gì?
+      url: /cpp-basic-07-string-and-null.html
+      output: web, pdf
+
+    - title: Bài tập phần II
+      url: /cpp-basic-bai-tap-phan-II.html
+      output: web, pdf
+
+  - title: Phần III
+    output: web, pdf
+    folderitems:
+
+    - title: 08. (Đang cập nhập)
+      url: /cpp-basic-08-cau-truc-1-chuong-trinh.html
+      output: web, pdf
+
+    - title: 09. (Đang cập nhập)
+      url: /cpp-basic-09-xuat-man-hinh.html
+      output: web, pdf
+
+    - title: 10. (Đang cập nhập)
+      url: /cpp-basic-10-chu-thich-va-trinh-bay.html
+      output: web, pdf
+
+    - title: 11. (Đang cập nhập)
+      url: /cpp-basic-11-bien-va-cach-khai-bao.html
+      output: web, pdf
+
+    - title: 12. (Đang cập nhập)
+      url: /cpp-basic-12-string-and-null.html
+      output: web, pdf
+
+    - title: 13. (Đang cập nhập)
+      url: /cpp-basic-13-string-and-null.html
+      output: web, pdf
+
+    - title: 14. (Đang cập nhập)
+      url: /cpp-basic-14-string-and-null.html
+      output: web, pdf
+
+    - title: Bài tập phần III
+      url: /cpp-basic-bai-tap-phan-III.html
+      output: web, pdf
+
+# Copyright 2024 Google LLC

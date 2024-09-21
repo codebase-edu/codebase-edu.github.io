@@ -5,7 +5,7 @@ title:  "Lập trình C Cơ bản 01 - Lý do nên học và ứng dụng của 
 title2:  "Lập trình C Cơ bản 01 - Lý do nên học và ứng dụng của ngôn ngữ C/C++ trong thực tế"
 date:   2023-01-05 16:05:00
 permalink: /cpp-basic-01-gioi-thieu.html
-sidebar: mydoc_sidebar
+sidebar: c_basic_sidebar
 mathjax: true
 tags: C++ C++-cơ-bản
 categories: C++-Basic

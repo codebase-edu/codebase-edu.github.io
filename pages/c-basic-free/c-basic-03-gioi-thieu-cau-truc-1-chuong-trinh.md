@@ -5,7 +5,7 @@ title:  "C Bài 03: Giới thiệu cấu trúc 1 chương trình C++"
 title2:  "C Bài 03: Giới thiệu cấu trúc 1 chương trình C++"
 date:   2023-01-05 20:35:00
 permalink: /cpp-basic-03-cau-truc-1-chuong-trinh.html
-sidebar: mydoc_sidebar
+sidebar: c_basic_sidebar
 mathjax: true
 tags: C++ C++-cơ-bản
 categories: C++-Basic

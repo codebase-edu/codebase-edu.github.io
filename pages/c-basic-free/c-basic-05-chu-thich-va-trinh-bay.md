@@ -5,7 +5,7 @@ title:  "Lâp trình C 05: Chú thích và trình bày có quan trọng?"
 title2:  "Lâp trình C 05: Chú thích và trình bày có quan trọng?"
 date:   2024-09-15 20:35:00
 permalink: /cpp-basic-05-chu-thich-va-trinh-bay.html
-sidebar: mydoc_sidebar
+sidebar: c_basic_sidebar
 mathjax: true
 tags: C++ C++-cơ-bản
 categories: C++-Basic

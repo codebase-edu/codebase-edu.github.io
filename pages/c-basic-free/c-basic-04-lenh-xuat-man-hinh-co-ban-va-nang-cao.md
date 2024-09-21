@@ -5,7 +5,7 @@ title:  "C Bài 04: Lệnh xuất ra màn hình cơ bản và nâng cao"
 title2:  "C Bài 04: Lệnh xuất ra màn hình cơ bản và nâng cao"
 date:   2024-09-15 20:35:00
 permalink: /cpp-basic-04-xuat-man-hinh.html
-sidebar: mydoc_sidebar
+sidebar: c_basic_sidebar
 mathjax: true
 tags: C++ C++-cơ-bản
 categories: C++-Basic
