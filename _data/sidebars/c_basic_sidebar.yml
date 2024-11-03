@@ -35,10 +35,6 @@ entries:
       url: /cpp-basic-02-cai-dat-ide.html
       output: web, pdf
 
-  - title: Phần II
-    output: web, pdf
-    folderitems:
-
     - title: 03. Giải thích hoạt động của 1 chương trình C
       url: /cpp-basic-03-cau-truc-1-chuong-trinh.html
       output: web, pdf
@@ -63,7 +59,7 @@ entries:
       url: /cpp-basic-bai-tap-phan-II.html
       output: web, pdf
 
-  - title: Phần III
+  - title: Phần II
     output: web, pdf
     folderitems:
 
@@ -95,8 +91,8 @@ entries:
       url: /cpp-basic-14-string-and-null.html
       output: web, pdf
 
-    - title: Bài tập phần III
-      url: /cpp-basic-bai-tap-phan-III.html
+    - title: Bài tập phần II
+      url: /cpp-basic-bai-tap-phan-II.html
       output: web, pdf
 
 # Copyright 2024 Google LLC

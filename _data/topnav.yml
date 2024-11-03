@@ -19,10 +19,9 @@ topnav_dropdowns:
         - title: Facebook
           external_url: https://www.facebook.com/kenhDTLT/
         - title: Tiktok
-          external_url: https://www.tiktok.com/kenhDTLT/
-    - title: Khóa học
+          external_url: #
+    - title: Kiến thức
       folderitems:
-
         - title: Lập trình C cơ bản
           url: /c-basic-introduction.html
         - title: Lập trình C nâng cao (Đang cập nhập)

@@ -19,7 +19,7 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Phần I. Giới thiệu và cài đặt
+  - title: Phần I. Giới thiệu - Kiến thức cơ bản
     output: web, pdf
     folderitems:
     - title: Giới thiệu khóa học Lập Trình C Cơ Bản
@@ -35,10 +35,6 @@ entries:
       url: /cpp-basic-02-cai-dat-ide.html
       output: web, pdf
 
-  - title: Phần II
-    output: web, pdf
-    folderitems:
-
     - title: 03. Giải thích hoạt động của 1 chương trình C
       url: /cpp-basic-03-cau-truc-1-chuong-trinh.html
       output: web, pdf
@@ -51,7 +47,7 @@ entries:
       url: /cpp-basic-05-chu-thich-va-trinh-bay.html
       output: web, pdf
 
-    - title: 06. Biến và cách kai báo biến
+    - title: 06. Biến và cách khai báo biến
       url: /cpp-basic-06-bien-va-cach-khai-bao.html
       output: web, pdf
 
@@ -59,24 +55,24 @@ entries:
       url: /cpp-basic-07-string-and-null.html
       output: web, pdf
 
-    - title: Bài tập phần II
-      url: /cpp-basic-bai-tap-phan-II.html
+    - title: Bài tập phần I
+      url: /cpp-basic-bai-tap-phan-1.html
       output: web, pdf
 
-  - title: Phần III
+  - title: Phần II
     output: web, pdf
     folderitems:
 
-    - title: 08. (Đang cập nhập)
-      url: /cpp-basic-08-cau-truc-1-chuong-trinh.html
+    - title: 08. String và null là gì?
+      url: /cpp-basic-08-mang-va-hieu-ro-ve-mang.html
       output: web, pdf
 
-    - title: 09. (Đang cập nhập)
-      url: /cpp-basic-09-xuat-man-hinh.html
+    - title: 09. Nhập dữ liệu với scanf
+      url: /cpp-basic-09-nhap-du-lieu-voi-scanf.html
       output: web, pdf
 
-    - title: 10. (Đang cập nhập)
-      url: /cpp-basic-10-chu-thich-va-trinh-bay.html
+    - title: 10. Toán tử số học
+      url: /cpp-basic-10-toan-tu-so-hoc.html
       output: web, pdf
 
     - title: 11. (Đang cập nhập)
@@ -95,7 +91,7 @@ entries:
       url: /cpp-basic-14-string-and-null.html
       output: web, pdf
 
-    - title: Bài tập phần III
+    - title: Bài tập phần II
       url: /cpp-basic-bai-tap-phan-III.html
       output: web, pdf
 

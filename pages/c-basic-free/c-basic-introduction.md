@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Giới thiệu về cách học lập trình C
 sidebar: c_basic_sidebar
 permalink: c-basic-introduction.html
 folder: c-basic-free
