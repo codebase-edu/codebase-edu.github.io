@@ -10,7 +10,7 @@ tags: C++ Singleton Design-pattern
 categories: Design-pattern
 # sc_project: 11213301
 # sc_security: 8d50f6a5
-img: /assets/images/design-patterns/design-pattern-01-singleton.jpg
+img: /images/design-patterns/design-pattern-01-singleton.jpg
 summary: Singleton Design Pattern là một trong những mẫu thiết kế phần mềm phổ biến trong lập trình hướng đối tượng
 ---
 **Trong trang này:**
@@ -25,6 +25,11 @@ summary: Singleton Design Pattern là một trong những mẫu thiết kế ph�
 
 ### I. Giới thiệu:
 Singleton Design Pattern là một trong những mẫu thiết kế phần mềm phổ biến trong lập trình hướng đối tượng. Nó được sử dụng để giới hạn số lượng đối tượng được tạo ra và đảm bảo rằng chỉ có duy nhất một đối tượng được tạo ra trong suốt quá trình chạy của chương trình.
+
+![Design pattern singleton](/images/design-patterns/design-pattern-01-singleton.jpg)
+
+_Minh họa: Singleton design pattern được giới lập trình xài nhiều như dân nhậu uống rượu._  
+
 
 Trong C++, Singleton Design Pattern có thể được triển khai bằng cách sử dụng một class duy nhất có một phương thức tĩnh trả về tham chiếu đến đối tượng của lớp đó. Điều này đảm bảo rằng chỉ có một đối tượng được tạo ra trong suốt quá trình chạy của chương trình.
 

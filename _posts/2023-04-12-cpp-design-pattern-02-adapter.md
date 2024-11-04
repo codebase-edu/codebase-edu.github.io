@@ -10,7 +10,7 @@ tags: C++ Adapter Design-pattern
 categories: Design-pattern
 # sc_project: 11213301
 # sc_security: 8d50f6a5
-img: /assets/images/design-patterns/Adapter_design_pattern.png
+img: /images/design-patterns/Adapter_design_pattern.png
 summary: Adapter Design Pattern cho phép các đối tượng khác nhau có thể làm việc cùng nhau một cách dễ dàng thay vì phải sửa đổi mã nguồn
 ---
 **Trong trang này:**
@@ -35,7 +35,7 @@ Adapter Design Pattern được sử dụng khi các đối tượng cần đư�
 
 Adapter Design Pattern bao gồm ba thành phần chính: Target, Adapter và Adaptee.
 
-![Design pattern adapter](/assets/images/design-patterns/adapter-dp-uml.jpg)
+![Design pattern adapter](/images/design-patterns/adapter-dp-uml.jpg)
 
 + _Target_: Là một interface hoặc lớp trừu tượng đại diện cho giao diện mà các đối tượng khác nhau cần kết nối với nhau.
 + _Adapter_: Là một lớp trung gian giúp các đối tượng có thể tương tác với nhau bằng cách chuyển đổi giao diện của chúng. Adapter kế thừa hoặc sử dụng đối tượng Adaptee để thực hiện chuyển đổi giao diện.
