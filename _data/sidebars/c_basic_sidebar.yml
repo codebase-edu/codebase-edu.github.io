@@ -47,7 +47,7 @@ entries:
       url: /cpp-basic-05-chu-thich-va-trinh-bay.html
       output: web, pdf
 
-    - title: 06. Biến và cách kai báo biến
+    - title: 06. Biến và cách khai báo biến
       url: /cpp-basic-06-bien-va-cach-khai-bao.html
       output: web, pdf
 
@@ -55,44 +55,67 @@ entries:
       url: /cpp-basic-07-string-and-null.html
       output: web, pdf
 
-    - title: Bài tập phần II
-      url: /cpp-basic-bai-tap-phan-II.html
+    - title: Bài tập phần I
+      url: /cpp-basic-bai-tap-phan-1.html
       output: web, pdf
 
-  - title: Phần II
+  - title: Phần II - Rẽ nhánh và Toán tử
     output: web, pdf
     folderitems:
 
-    - title: 08. (Đang cập nhập)
-      url: /cpp-basic-08-cau-truc-1-chuong-trinh.html
+    - title: 08. Hiểu rõ về mảng
+      url: /cpp-basic-08-hieu-ro-ve-mang.html
       output: web, pdf
 
-    - title: 09. (Đang cập nhập)
-      url: /cpp-basic-09-xuat-man-hinh.html
+    - title: 09. Nhập dữ liệu với scanf
+      url: /c-basic-09-nhap-du-lieu-voi-scanf.html
       output: web, pdf
 
-    - title: 10. (Đang cập nhập)
-      url: /cpp-basic-10-chu-thich-va-trinh-bay.html
+    - title: 10. Toán tử số học
+      url: /cpp-basic-10-toan-tu-so-hoc.html
       output: web, pdf
 
-    - title: 11. (Đang cập nhập)
-      url: /cpp-basic-11-bien-va-cach-khai-bao.html
+    - title: 11. Viết chương trình tính trung bình cộng, tính diện tích
+      url: /cpp-basic-11-chuong-trinh-trung-binh-cong.html
       output: web, pdf
 
-    - title: 12. (Đang cập nhập)
-      url: /cpp-basic-12-string-and-null.html
+    - title: 12. Lệnh IF
+      url: /cpp-basic-12-lenh-if.html
       output: web, pdf
 
-    - title: 13. (Đang cập nhập)
-      url: /cpp-basic-13-string-and-null.html
+    - title: 13. Lệnh IF ELSE
+      url: /cpp-basic-13-lenh-if-else.html
       output: web, pdf
 
-    - title: 14. (Đang cập nhập)
-      url: /cpp-basic-14-string-and-null.html
+    - title: 14. Lệnh IF lồng nhau
+      url: /cpp-basic-14-lenh-if-long-nhau.html
+      output: web, pdf
+
+    - title: 15. Ép kiểu
+      url: /cpp-basic-15-ep-kieu.html
+      output: web, pdf
+
+    - title: 16. Toán tử quan hệ (AND, OR, NOT)
+      url: /cpp-basic-16-toan-tu-quan-he-and-or-not.html
+      output: web, pdf
+
+    - title: 17. Toán tử điều kiện
+      url: /cpp-basic-17-toan-tu-dieu-kien.html
+      output: web, pdf
+
+    - title: 18. Toán tử tăng giảm
+      url: /cpp-basic-18-toan-tu-tang-giam.html
       output: web, pdf
 
     - title: Bài tập phần II
-      url: /cpp-basic-bai-tap-phan-II.html
+      url: /cpp-basic-bai-tap-phan-2.html
       output: web, pdf
+  
+  - title: Phần III - Vòng lặp
+    output: web, pdf
+    folderitems:
 
+    - title: 19. Vòng lặp for
+      url: /cpp-basic-19-vong-lap-for.html
+      output: web, pdf
 # Copyright 2024 Google LLC
