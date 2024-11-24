@@ -8,3 +8,4 @@ vendor/
 .bundle/
 Gemfile.lock
 Gemfile.lock
+scripts/playlist2article/__pycache__/create_article.cpython-310.pyc
