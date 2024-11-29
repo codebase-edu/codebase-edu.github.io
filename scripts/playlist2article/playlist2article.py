@@ -88,4 +88,5 @@ for video in videos:
 
     Article.save_article_to_file(article_name, article_text)
     article.add_to_side_bar()
+    article.add_to_introduction_page()
 

@@ -21,6 +21,7 @@ class Article:
         self.permalink = ''
         self.summary = data_json['summary']
         self.iframe_url = data_json['iframe_url']
+        self.video_url = data_json['url']
 
     def create_article(self):
         """
@@ -156,6 +157,36 @@ summary: {self.title} - Các bạn nhớ đăng kí kênh để nhận nhiều v
         try:
             with open(f"c_basic_sibar.md", "a+", encoding="utf-8") as file:
                 file.write(sidebar_template)
+        except FileNotFoundError:
+            print("The specified file was not found.")
+        except IOError:
+            print("An I/O error occurred while handling the file.")
+        except Exception as e:
+            print(f"An unexpected error occurred: {e}")
+            print("Article generated successfully!")
+
+
+    def add_to_introduction_page(self):
+        course_num = Article.extract_numbers(self.title_vi)
+
+        if " - " in self.title_vi:
+            article_parts = self.title_vi.split(" - ")
+            course_vietnamese_title = article_parts[1]
+        elif ": " in self.title_vi:
+            article_parts = self.title_vi.split(": ")
+            course_vietnamese_title = article_parts[1]
+        else:
+            course_vietnamese_title = self.title_vi
+        # Lập trình C bài 08. Hiểu rõ về mảng | [Hiểu rõ về mảng?](/cpp-basic-08-hieu-ro-ve-mang.html){:target="_blank"} | [Youtube](https://www.youtube.com/watch?v=bQV5l1RLc7U){:target="_blank"}|
+        course_table_list_template = f"""
+Lập trình C bài {course_num}. {course_vietnamese_title} | [{course_vietnamese_title}]({self.permalink}){{target="_blank"}} | [Youtube]({self.video_url}){{target="_blank"}} |
+"""
+
+
+        print('Append the course to introduction page')
+        try:
+            with open(f"c_introduction_page.md", "a+", encoding="utf-8") as file:
+                file.write(course_table_list_template)
         except FileNotFoundError:
             print("The specified file was not found.")
         except IOError:
