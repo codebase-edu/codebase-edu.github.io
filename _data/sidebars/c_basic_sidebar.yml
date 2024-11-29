@@ -139,9 +139,17 @@ entries:
       url: /c-basic-24-chuong-trinh-xac-dinh-so-nguyen-to.html
       output: web, pdf
 
+  - title: Phần IV - Switch case
+    output: web, pdf
+    folderitems:
+
     - title: 25.Switch case và làm sao lựa chọn Switch case hay If else
       url: /c-basic-25-switch-case-va-lam-sao-lua-chon-switch-case-hay-if-else.html
       output: web, pdf
+
+  - title: Phần V - Hàm và thư viện thường dùng
+    output: web, pdf
+    folderitems:
 
     - title: 27.Các hàm trong thư viện String.
       url: /c-basic-27-cac-ham-trong-thu-vien-string..html
@@ -171,6 +179,10 @@ entries:
       url: /c-basic-32-random-that-ki-dieu.html
       output: web, pdf
 
+  - title: Phần VI - Con trỏ
+    output: web, pdf
+    folderitems:
+
     - title: 33.Địa chỉ và con trỏ
       url: /c-basic-33-dia-chi-va-con-tro.html
       output: web, pdf
@@ -182,6 +194,10 @@ entries:
     - title: 34.Con trỏ và thao tác cơ bản
       url: /c-basic-34-con-tro-va-thao-tac-co-ban.html
       output: web, pdf
+
+  - title: Phần VII - Hàm (tiếp theo)
+    output: web, pdf
+    folderitems:
 
     - title: 36.Hàm là điều tuyệt vời nhất trong lập trình?
       url: /c-basic-36-ham-la-dieu-tuyet-voi-nhat-trong-lap-trinh?.html
@@ -198,6 +214,10 @@ entries:
     - title: 39.Phải nắm vững Giá trị khởi tạo mặc định
       url: /c-basic-39-phai-nam-vung-gia-tri-khoi-tao-mac-dinh.html
       output: web, pdf
+
+  - title: Phần VIII - Làm việc với text file
+    output: web, pdf
+    folderitems:
 
     - title: 40.Cách ghi 1 file text chỉ với 3 bước
       url: /c-basic-40-cach-ghi-1-file-text-chi-voi-3-buoc.html
