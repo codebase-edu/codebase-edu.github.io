@@ -28,6 +28,8 @@ topnav_dropdowns:
           url: /p1_landing_page.html
         - title: Lập trình C++ cơ bản (Đang cập nhập)
           url: /p2_landing_page.html
+        - title: Lập trình Python cơ bản (Đang cập nhập)
+          url: /python-basic-introduction.html
         - title: Lập trình ESP32 (Đang cập nhập)
           url: /p2_landing_page.html
         - title: Linux Embedded (Đang cập nhập)

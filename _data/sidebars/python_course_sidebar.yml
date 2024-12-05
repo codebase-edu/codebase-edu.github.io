@@ -1,0 +1,126 @@
+entries:
+- title: sidebar
+  product: Lập trình Python
+  version: (Update 2024.12.05)
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Phần 1. Hiểu Python Là Gì Và Cài Đặt Môi Trường
+    output: web, pdf
+    folderitems:
+    - title: Giới thiệu khóa học Lập Trình C Cơ Bản
+      url: /c-basic-introduction.html
+      output: web, pdf
+      type: homepage
+
+    - title: 01. Lý do nên học và ứng dụng thực tế của C/C++
+      url: /cpp-basic-01-gioi-thieu.html
+      output: web, pdf
+
+  - title: Phần 2. Nắm Vững Cú Pháp Cơ Bản
+    output: web, pdf
+    folderitems:
+    - title: Giới thiệu khóa học Lập Trình C Cơ Bản
+      url: /c-basic-introduction.html
+      output: web, pdf
+      type: homepage
+
+    - title: 01. Lý do nên học và ứng dụng thực tế của C/C++
+      url: /cpp-basic-01-gioi-thieu.html
+      output: web, pdf
+
+  - title: Phần 3. Hiểu Và Sử Dụng Hàm
+    output: web, pdf
+    folderitems:
+    - title: Giới thiệu khóa học Lập Trình C Cơ Bản
+      url: /c-basic-introduction.html
+      output: web, pdf
+      type: homepage
+
+    - title: 01. Lý do nên học và ứng dụng thực tế của C/C++
+      url: /cpp-basic-01-gioi-thieu.html
+      output: web, pdf
+
+  - title: Phần 4. Làm Việc Với Dữ Liệu
+    output: web, pdf
+    folderitems:
+    - title: Giới thiệu khóa học Lập Trình C Cơ Bản
+      url: /c-basic-introduction.html
+      output: web, pdf
+      type: homepage
+
+    - title: 01. Lý do nên học và ứng dụng thực tế của C/C++
+      url: /cpp-basic-01-gioi-thieu.html
+      output: web, pdf
+
+  - title: Phần 5. Lập Trình Hướng Đối Tượng (OOP) Cơ Bản
+    output: web, pdf
+    folderitems:
+    - title: Giới thiệu khóa học Lập Trình C Cơ Bản
+      url: /c-basic-introduction.html
+      output: web, pdf
+      type: homepage
+
+    - title: 01. Lý do nên học và ứng dụng thực tế của C/C++
+      url: /cpp-basic-01-gioi-thieu.html
+      output: web, pdf
+
+  - title: Phần 6. Làm Việc Với Tệp Và Xử Lý Ngoại Lệ
+    output: web, pdf
+    folderitems:
+    - title: Giới thiệu khóa học Lập Trình C Cơ Bản
+      url: /c-basic-introduction.html
+      output: web, pdf
+      type: homepage
+
+    - title: 01. Lý do nên học và ứng dụng thực tế của C/C++
+      url: /cpp-basic-01-gioi-thieu.html
+      output: web, pdf
+
+  - title: Phần 7. Hiểu Về Thư Viện Và Module
+    output: web, pdf
+    folderitems:
+    - title: Giới thiệu khóa học Lập Trình C Cơ Bản
+      url: /c-basic-introduction.html
+      output: web, pdf
+      type: homepage
+
+    - title: 01. Lý do nên học và ứng dụng thực tế của C/C++
+      url: /cpp-basic-01-gioi-thieu.html
+      output: web, pdf
+
+  - title: Phần 8. Làm Quen Với Dự Án Nhỏ
+    output: web, pdf
+    folderitems:
+    - title: Giới thiệu khóa học Lập Trình C Cơ Bản
+      url: /c-basic-introduction.html
+      output: web, pdf
+      type: homepage
+
+    - title: 01. Lý do nên học và ứng dụng thực tế của C/C++
+      url: /cpp-basic-01-gioi-thieu.html
+      output: web, pdf
+
+  - title: Phụ lục & Bonus
+    output: web, pdf
+    folderitems:
+    - title: Giới thiệu khóa học Lập Trình C Cơ Bản
+      url: /c-basic-introduction.html
+      output: web, pdf
+      type: homepage
+
+    - title: 01. Lý do nên học và ứng dụng thực tế của C/C++
+      url: /cpp-basic-01-gioi-thieu.html
+      output: web, pdf
