@@ -104,5 +104,5 @@ folder: python-basic-free
 
 ---
 
-**Gợi ý**: Dành ít nhất 1-2 giờ mỗi ngày để học và thực hành. Đừng ngại đặt câu hỏi và tìm hiểu thêm!
+**Làm sao để học tập có kết quả**: Dù cho tài liệu hay lộ trình có tốt đến đâu, người học cũng phải dành ít nhất 1-2 giờ mỗi ngày để học và thực hành. Đừng ngại đặt câu hỏi và tìm hiểu thêm để hiểu từ gốc rễ vấn đề nhé!
 ```

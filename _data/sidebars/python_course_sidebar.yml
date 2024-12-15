@@ -17,110 +17,206 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Phần 1. Hiểu Python Là Gì Và Cài Đặt Môi Trường
+  - title: Giới thiệu khóa học Lập Trình Python Cơ Bản
     output: web, pdf
     folderitems:
-    - title: Giới thiệu khóa học Lập Trình C Cơ Bản
-      url: /c-basic-introduction.html
+    - title: Giới thiệu khóa học Lập Trình Python
+      url: /python-basic-introduction.html
       output: web, pdf
       type: homepage
 
-    - title: 01. Lý do nên học và ứng dụng thực tế của C/C++
-      url: /cpp-basic-01-gioi-thieu.html
+  - title: Phần 1. Hiểu Python Là Gì Và Cài Đặt Môi Trường
+    output: web, pdf
+    folderitems:
+    - title: 1.1 Python là gì
+      url: /python-basic-1-1-python-la-gi.html
+      output: web, pdf
+      type: homepage
+
+    - title: 1.2 Cài đặt môi trường lập trình
+      url: /python-basic-1-2-cai-dat-moi-truong-lap-trinh.html
       output: web, pdf
 
   - title: Phần 2. Nắm Vững Cú Pháp Cơ Bản
     output: web, pdf
     folderitems:
-    - title: Giới thiệu khóa học Lập Trình C Cơ Bản
-      url: /c-basic-introduction.html
+    - title: 2.1 Hello world với Python
+      url: /python-basic-2-1-hello-wỏld-voi-python.html
       output: web, pdf
       type: homepage
 
-    - title: 01. Lý do nên học và ứng dụng thực tế của C/C++
-      url: /cpp-basic-01-gioi-thieu.html
+    - title: 2.2 Biến và kiểu dữ liệu cơ bản (bool, int, float)
+      url: /python-basic-2-2-bien-va-kieu-du-lieu-co-ban.html
+      output: web, pdf
+
+    - title: 2.3 Kiểu dữ liệu kiểu chuỗi
+      url: /python-basic-2-3-kieu-du-lieu-kieu-chuoi.html
+      output: web, pdf
+
+    - title: 2.4 Kiểu dữ liệu danh sách (list)
+      url: /python-basic-2-4-kieu-du-lieu-danh-sach-list.html
+      output: web, pdf
+
+    - title: 2.5 Kiểu dữ liệu tuple
+      url: /python-basic-2-5-kieu-du-lieu-tuple.html
+      output: web, pdf
+
+    - title: 2.6 Kiểu dữ liệu từ điển (dict)
+      url: /python-basic-2-6-kieu-du-lieu-tu-dien-dict.html
+      output: web, pdf
+
+    - title: 2.7 Kiểu dữ liệu tập hợp (set)
+      url: /python-basic-2-7-kieu-du-tap-hop-set.html
+      output: web, pdf
+
+    - title: 2.8 [Premium] So sánh và chuyển đổi giữa các kiểu dữ liệu
+      url: /python-basic-2-8-so-sanh-va-chuyen-doi-giua-cac-kieu-du-lieu.html
       output: web, pdf
 
   - title: Phần 3. Hiểu Và Sử Dụng Hàm
     output: web, pdf
     folderitems:
-    - title: Giới thiệu khóa học Lập Trình C Cơ Bản
-      url: /c-basic-introduction.html
+    - title: 3.1 Giới thiệu về hàm
+      url: /python-basic-3-1-gioi-thieu-ve-ham.html
       output: web, pdf
-      type: homepage
 
-    - title: 01. Lý do nên học và ứng dụng thực tế của C/C++
-      url: /cpp-basic-01-gioi-thieu.html
+    - title: 3.2 Định nghĩa hàm cơ bản
+      url: /python-basic-3-2-dinh-nghia-ham-co-ban.html
+      output: web, pdf
+
+    - title: 3.3 Tham số và đối số
+      url: /python-basic-3-3-tham-so-va-doi-so.html
+      output: web, pdf
+
+    - title: 3.4 Giá trị trả về của hàm
+      url: /python-basic-3-4-gia-tri-tra-ve-cua-ham.html
+      output: web, pdf
+
+    - title: 3.5 Phạm vi biến (scope)
+      url: /python-basic-3-5-pham-vi-bien-scope.html
+      output: web, pdf
+
+    - title: 3.6 Hàm lambda (Vô danh)
+      url: /python-basic-3-6-ham-lambda-vo-danh.html
+      output: web, pdf
+
+    - title: 3.7 Đệ quy
+      url: /python-basic-3-7-de-quy.html
+      output: web, pdf
+
+    - title: 3.8 [Premium] Thiết kế và sử dụng hàm
+      url: /python-basic-3-8-thiet-ke-va-su-dung-ham
       output: web, pdf
 
   - title: Phần 4. Làm Việc Với Dữ Liệu
     output: web, pdf
     folderitems:
-    - title: Giới thiệu khóa học Lập Trình C Cơ Bản
-      url: /c-basic-introduction.html
-      output: web, pdf
-      type: homepage
-
-    - title: 01. Lý do nên học và ứng dụng thực tế của C/C++
-      url: /cpp-basic-01-gioi-thieu.html
+    - title: 4.1 Làm việc với danh sách (list)
+      url: /python-basic-4-1-lam-viec-voi-danh-sach-list.html
       output: web, pdf
 
-  - title: Phần 5. Lập Trình Hướng Đối Tượng (OOP) Cơ Bản
+    - title: 4.2 Hiểu sâu về chuỗi (str)
+      url: /python-basic-4-2-hieu-sau-ve-chuoi-str.html
+      output: web, pdf
+
+    - title: 4.3 Làm việc với tuple
+      url: /python-basic-4-3-lam-viec-voi-tuple.html
+      output: web, pdf
+
+    - title: 4.4 Làm việc với từ điển (dict)
+      url: /python-basic-4-4-lam-viec-voi-tu-dien-dict.html
+      output: web, pdf
+
+    - title: 4.5 Làm việc với tập hợp (set)
+      url: /python-basic-4-5-lam-viec-voi-tap-hop-set.html
+      output: web, pdf
+
+    - title: 4.6 Kết hợp các kiểu dữ liệu
+      url: /python-basic-4-6-ket-hop-cac-kieu-du-lieu.html
+      output: web, pdf
+
+    - title: 4.7 Xử lý dữ liệu đầu vào và đầu ra
+      url: /python-basic-4-7-xu-ly-du-lieu-dau-vao-va-dau-ra.html
+      output: web, pdf
+
+    - title: 4.8 [Premium] Bài tập thực hành tổng hợp
+      url: /python-basic-4-8-bai-tap-thuc-hanh-tong-hop.html
+      output: web, pdf
+
+
+  - title: Phần 5. Lập Trình Hướng Đối Tượng (OOP)
     output: web, pdf
     folderitems:
-    - title: Giới thiệu khóa học Lập Trình C Cơ Bản
-      url: /c-basic-introduction.html
-      output: web, pdf
-      type: homepage
-
-    - title: 01. Lý do nên học và ứng dụng thực tế của C/C++
-      url: /cpp-basic-01-gioi-thieu.html
+    - title: 5.1 Giới thiệu về OOP
+      url: /python-basic-5-1-gioi-thieu-ve-oop.html
       output: web, pdf
 
-  - title: Phần 6. Làm Việc Với Tệp Và Xử Lý Ngoại Lệ
+    - title: 5.2 Các khái niệm cơ bản (Class, Object, Method)
+      url: /python-basic-5-2-cac-khai-niem-co-ban-class-object-method.html
+      output: web, pdf
+
+    - title: 5.3 Thuộc tính và phương thức (Attributes và Methods)
+      url: /python-basic-5-3-thuoc-tinh-va-phuong-thuc.html
+      output: web, pdf
+
+    - title: 5.4 Kế thừa (Inheritance)
+      url: /python-basic-5-4-ke-thua-inheritance.html
+      output: web, pdf
+
+    - title: 5.5 Đa hình (Polymorphism)
+      url: /python-basic-5-5-da-hinh-polymorphism.html
+      output: web, pdf
+
+    - title: 5.6 Đóng gói và Trừu tượng hóa (Encapsulation, Abstraction)
+      url: /python-basic-5-6-dong-goi-va-truu-tuong-hoa.html
+      output: web, pdf
+
+    - title: 5.7 [Premium] Xây dựng ứng dụng đơn giản sử dụng OOP
+      url: /python-basic-5-7-xay-dung-ung-dung-don-gian-su-dung-oop.html
+      output: web, pdf
+
+  - title: Phần 6. Làm Việc Với Tệp
     output: web, pdf
     folderitems:
-    - title: Giới thiệu khóa học Lập Trình C Cơ Bản
-      url: /c-basic-introduction.html
-      output: web, pdf
-      type: homepage
-
-    - title: 01. Lý do nên học và ứng dụng thực tế của C/C++
-      url: /cpp-basic-01-gioi-thieu.html
+    - title: 6.1 Đọc và ghi tệp văn bản (Text Files)
+      url: /python-basic-6-1-doc-va-ghi-tep-van-ban.html
       output: web, pdf
 
-  - title: Phần 7. Hiểu Về Thư Viện Và Module
+    - title: 6.2 Đọc và ghi tệp nhị phân (Binary Files)
+      url: /python-basic-6-2-doc-va-ghi-tep-nhi-phan.html
+      output: web, pdf
+
+    - title: 6.3 Làm việc với CSV Files
+      url: /python-basic-6-3-lam-viec-voi-csv-files.html
+      output: web, pdf
+
+    - title: 6.4 Làm việc với JSON Files
+      url: /python-basic-6-4-lam-viec-voi-json-files.html
+      output: web, pdf
+
+    - title: 6.5 [Premium] Quản lý dữ liệu trong một ứng dụng nhỏ
+      url: /python-basic-6-5-quan-ly-du-lieu-trong-ung-dung-nho.html
+      output: web, pdf
+
+  - title: Phần 7. Lập Trình Nâng Cao
     output: web, pdf
     folderitems:
-    - title: Giới thiệu khóa học Lập Trình C Cơ Bản
-      url: /c-basic-introduction.html
-      output: web, pdf
-      type: homepage
-
-    - title: 01. Lý do nên học và ứng dụng thực tế của C/C++
-      url: /cpp-basic-01-gioi-thieu.html
+    - title: 7.1 Xử lý ngoại lệ (Exception Handling)
+      url: /python-basic-7-1-xu-ly-ngoai-le-exception-handling.html
       output: web, pdf
 
-  - title: Phần 8. Làm Quen Với Dự Án Nhỏ
-    output: web, pdf
-    folderitems:
-    - title: Giới thiệu khóa học Lập Trình C Cơ Bản
-      url: /c-basic-introduction.html
-      output: web, pdf
-      type: homepage
-
-    - title: 01. Lý do nên học và ứng dụng thực tế của C/C++
-      url: /cpp-basic-01-gioi-thieu.html
+    - title: 7.2 Hàm Generator và Iterator
+      url: /python-basic-7-2-ham-generator-va-iterator.html
       output: web, pdf
 
-  - title: Phụ lục & Bonus
-    output: web, pdf
-    folderitems:
-    - title: Giới thiệu khóa học Lập Trình C Cơ Bản
-      url: /c-basic-introduction.html
+    - title: 7.3 Module và Package trong Python
+      url: /python-basic-7-3-module-va-package-trong-python.html
       output: web, pdf
-      type: homepage
 
-    - title: 01. Lý do nên học và ứng dụng thực tế của C/C++
-      url: /cpp-basic-01-gioi-thieu.html
+    - title: 7.4 Thư viện chuẩn Python
+      url: /python-basic-7-4-thu-vien-chuan-python.html
+      output: web, pdf
+
+    - title: 7.5 [Premium] Xây dựng module cá nhân
+      url: /python-basic-7-5-xay-dung-module-ca-nhan.html
       output: web, pdf
