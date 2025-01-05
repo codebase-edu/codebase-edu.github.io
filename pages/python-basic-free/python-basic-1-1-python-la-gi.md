@@ -39,7 +39,6 @@ Python là một ngôn ngữ lập trình bậc cao, linh hoạt, và dễ học
    - Lập trình hàm (Functional Programming).  
    - Lập trình thủ tục (Procedural Programming).
 
----
 
 ## Python Được Sử Dụng Trong Những Lĩnh Vực Nào?
 
@@ -50,7 +49,6 @@ Python là một ngôn ngữ lập trình bậc cao, linh hoạt, và dễ học
 - **Ứng Dụng Khoa Học**: Sử dụng trong nghiên cứu và mô phỏng khoa học.
 - **Phát Triển Game**: Tạo các trò chơi đơn giản hoặc tích hợp với engine phức tạp.
 
----
 
 ## Lý Do Nên Học Python
 
@@ -58,7 +56,6 @@ Python là một ngôn ngữ lập trình bậc cao, linh hoạt, và dễ học
 - **Cơ Hội Nghề Nghiệp Rộng Mở**: Python là ngôn ngữ quan trọng trong các ngành công nghệ như AI, dữ liệu lớn, và phát triển phần mềm.  
 - **Cộng Đồng Mạnh Mẽ**: Cộng đồng lập trình viên Python rất lớn và năng động, cung cấp vô số tài liệu học tập và hỗ trợ.  
 
----
 ## Ví Dụ Đơn Giản
 ```python
 # In dòng chữ "Hello, World!"
