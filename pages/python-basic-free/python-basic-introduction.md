@@ -98,6 +98,7 @@ folder: python-basic-free
 - **Website**: 
   - [w3schools Python](https://www.w3schools.com/python/)
   - [Real Python](https://realpython.com/)
+  - [Codebase](https://codebasevn.github.io/)
 - **Khóa học miễn phí**: 
   - [Python cơ bản trên Kaggle](https://www.kaggle.com/learn/python)
   - [Python for Everybody trên Coursera](https://www.coursera.org/specializations/python)

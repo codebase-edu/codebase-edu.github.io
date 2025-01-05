@@ -3,6 +3,8 @@
 topnav:
 - title: Topnav
   items:
+    - title: Dịch vụ
+      url: /p2_landing_page.html
     - title: Blog
       url: /index.html
     - title: GitHub
@@ -12,7 +14,7 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Video
+    - title: Video chia sẻ
       folderitems:
         - title: YouTube
           external_url: https://www.youtube.com/@dientuvalaptrinh
@@ -31,7 +33,7 @@ topnav_dropdowns:
         - title: Lập trình Python cơ bản (Đang cập nhập)
           url: /python-basic-introduction.html
         - title: Lập trình ESP32 (Đang cập nhập)
-          url: /p2_landing_page.html
+          url: /esp32-public.html
         - title: Linux Embedded (Đang cập nhập)
           url: /p2_landing_page.html
         - title: Android Embedded (Đang cập nhập)

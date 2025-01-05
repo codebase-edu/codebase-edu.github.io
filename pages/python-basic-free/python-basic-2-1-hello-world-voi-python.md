@@ -1,17 +1,9 @@
 ---
-    title: "Lập trình Python Cơ bản 1.1 - Python là gì"
+    title: "Lập trình Python Cơ bản 2.1 - Hello world với Python"
     sidebar: python_course_sidebar
-    permalink: /python-basic-1-1-python-la-gi.html
+    permalink: /python-basic-2-1-hello-wỏld-voi-python.html
     folder: python-basic-free
 ---
-# Tại sao cần hiểu về lịch sử ngôn ngữ
-
-Bất kì một ngôn ngữ lập trình nào cũng đều có hoàn cảnh ra đời và lịch sử phát triển. Hiểu lịch sử phát triển của một ngôn ngữ lập trình không chỉ giúp bạn có cái nhìn sâu sắc hơn về ngôn ngữ đó mà còn mang lại nhiều lợi ích thiết thực:
-
-+ Nắm Bắt Mục Đích Ban Đầu và Tầm Nhìn
-+ Hiểu Rõ Các Tính Năng Cốt Lõi
-+ Có cái Nhìn Sâu Sắc Về Cách Tiến Hóa Công Nghệ
-+ Đánh Giá Tính Phù Hợp Cho Dự Án
 
 # Python Là Gì?
 
@@ -59,7 +51,9 @@ Python là một ngôn ngữ lập trình bậc cao, linh hoạt, và dễ học
 - **Cộng Đồng Mạnh Mẽ**: Cộng đồng lập trình viên Python rất lớn và năng động, cung cấp vô số tài liệu học tập và hỗ trợ.  
 
 ---
+
 ## Ví Dụ Đơn Giản
+
 ```python
 # In dòng chữ "Hello, World!"
 print("Hello, World!")
@@ -68,7 +62,7 @@ print("Hello, World!")
 a = 5
 b = 7
 print("Tổng:", a + b)
-```
+
 ## Kết Luận
 
 Python không chỉ dành cho người mới bắt đầu, mà còn là công cụ mạnh mẽ cho các lập trình viên chuyên nghiệp trong nhiều lĩnh vực. Với tính đơn giản và hiệu quả, Python xứng đáng là ngôn ngữ lập trình bạn nên học để bắt đầu hành trình trong thế giới công nghệ.
