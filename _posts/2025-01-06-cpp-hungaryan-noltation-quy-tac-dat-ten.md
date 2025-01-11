@@ -1,5 +1,5 @@
 ---
-title:  "C++ nâng cao: Coding convention - Đặt tên biến theo kiểu Hungarian Notation"
+title:  "C++ và Hungarian Notation: Quy tắc đặt tên chuyên nghiệp"
 summary: "Trong lập trình nâng cao, việc tuân thủ theo các quy tắc lập trình là bắt buộc để có 1 bộ source đẹp và dễ dàng đọc hiểu bởi nhiều developer. Hungarian notation là một quy ước đặt tên biến nhằm đến mục đích như vậy. Xin mời các bạn đọc tiếp để hiểu thêm về Hungarian Notation nhé."
 # date: 2024-12-01 23:05:00
 # date:   2024-12-01 20:05:00

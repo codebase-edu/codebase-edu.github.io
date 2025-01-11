@@ -37,6 +37,14 @@ entries:
       url: /python-basic-1-2-cai-dat-moi-truong-lap-trinh.html
       output: web, pdf
 
+    - title: 1.3 Cài đặt IDE
+      url: /python-basic-1-3-cai-dat-IDE.html
+      output: web, pdf
+
+    - title: 1.4 Học cách sử dụng terminal và IDE để chạy script Python
+      url: /python-basic-1-4-su-dung-terminal-de-chay-script-python.html
+      output: web, pdf
+
   - title: Phần 2. Nắm Vững Cú Pháp Cơ Bản
     output: web, pdf
     folderitems:

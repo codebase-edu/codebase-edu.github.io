@@ -1,7 +1,7 @@
 ---
-    title: "Lập trình Python Cơ bản 1.2 - Cài đặt môi trường lập trình Python"
+    title: "Lập trình Python Cơ bản 1.3 - Cài đặt IDE"
     sidebar: python_course_sidebar
-    permalink: /python-basic-1-2-cai-dat-moi-truong-lap-trinh.html
+    permalink: /python-basic-1-3-cai-dat-IDE.html
     folder: python-basic-free
 ---
 # Hướng dẫn cài đặt Python trên Windows, macOS và Ubuntu
