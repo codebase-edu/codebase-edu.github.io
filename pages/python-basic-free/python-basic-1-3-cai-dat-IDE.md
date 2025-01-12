@@ -4,101 +4,28 @@
     permalink: /python-basic-1-3-cai-dat-IDE.html
     folder: python-basic-free
 ---
-# Hướng dẫn cài đặt Python trên Windows, macOS và Ubuntu
+# Hướng dẫn cài đặt VS Code và các Extension để học lập trình Python
 
-## 1. Cài đặt Python trên Windows
+## 1. Cài đặt VSCode
 
-### Bước 1: Tải Python
-1. Truy cập trang web chính thức của Python: [https://www.python.org/downloads/](https://www.python.org/downloads/)
-2. Nhấn vào nút **Download** phù hợp với phiên bản Windows (thường là bản mặc định cho hệ thống của bạn).
+Việc cài đặt VSCode là khá đơn giản. Việc này tôi sẽ để các bạn đọc đều tự nghiên cứu và làm.
+Điều quan trọng hơn hết là sau khi cài VSCode, nên cài đặt thêm các extension để làm việc sao cho cho hiệu quả tiết kiệm thời gian, vì như bạn biết đấy, thời gian là vàng bạc mà.
 
-### Bước 2: Cài đặt Python
-1. Chạy tệp `.exe` vừa tải về.
-2. Đánh dấu **Add Python to PATH** (rất quan trọng, nếu không bạn sẽ phải cấu hình PATH thủ công).
-3. Nhấn **Customize Installation** nếu cần tùy chỉnh (tùy chọn), hoặc nhấn **Install Now** để cài đặt ngay.
-4. Chờ quá trình cài đặt hoàn tất, sau đó nhấn **Close**.
+## 2. Cài đặt các VSCode Extension nâng cao hiệu suất làm việc với Python
 
-### Bước 3: Kiểm tra cài đặt
-1. Mở **Command Prompt** (cmd).
-2. Gõ lệnh:
-```bash
-    python --version
-```
-    Hoặc
+Đây là danh sách 3 extension cần thiết để tăng hiệu suất làm việc. Bạn hãy cài đặt tất cả 3 extension dưới đây nhé:
 
-    ```bash
-    python3 --version
-    ```
-    Nếu Python được cài đặt thành công, phiên bản sẽ hiển thị như sau.
-    ![Python version](/images/python-basic-course/python_1_3_version.png)
+> [!WARNING]
+> Trước khi quyết định cài 1 extension nào, nhớ kiểm tra kĩ số lượng review và publisher tránh scam.
 
-## 2. Cài đặt Python trên macOS
-### Bước 1: Kiểm tra Python có sẵn trên máy
-Mở Terminal.
-Gõ lệnh:
-```bash
-python3 --version
-```
-Nếu đã có Python (phiên bản 3.x), bạn không cần cài đặt thêm. Nếu chưa có hoặc muốn nâng cấp, tiếp tục các bước dưới đây.
++ Python
++ Python Indent
++ IntelliCode
 
-### Bước 2: Cài đặt Python qua Homebrew
-1. Cài đặt Homebrew (nếu chưa có):
-```bash
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
+Thế là chúng ta đã hoàn tất cài đặt môi trường để bắt đầu chuyến phiêu lưu cùng Python.
 
-2. Cài đặt Python:
-    ```bash
-    brew install python
-    ```
+### Bonus: Phần này chỉ dành cho người lười:
 
-### Bước 3: Kiểm tra cài đặt
-Gõ lệnh sau để chắc chắn là Python đã được cài:
+Nếu bạn không muốn click nhiều lần thì mình có cách khác đó là bạn tìm kiếm extension có tên là __Python Extension Pack__ (upload bởi Don Jayamanne). Sau đó chỉ cần bấm *Install* là nó sẽ cài tất cả extension liên quan luôn. Đương nhiên sẽ có vài extension chưa dùng đến trong khóa học này.
 
-```bash
-    python3 --version
-```
-
-Nếu Python được cài đặt thành công, phiên bản sẽ hiển thị như sau.
-    ![Python version](/images/python-basic-course/python_1_3_version.png)
-
-## 3. Cài đặt Python trên Ubuntu
-### Bước 1: Kiểm tra phiên bản Python hiện có
-Mở Terminal.
-Gõ lệnh:
-```bash
-    python3 --version
-```
-Hầu hết các bản Ubuntu mới đã có sẵn Python 3.x. Nếu muốn cài đặt hoặc nâng cấp, tiếp tục các bước dưới đây.
-
-### Bước 2: Cài đặt hoặc nâng cấp Python
-1. Cập nhật danh sách các gói có sẵn:
-    ```bash
-    sudo apt update
-    ```
-
-    Cài đặt Python:
-    ```bash
-    sudo apt install python3
-    ```
-
-    Cài đặt công cụ quản lý gói pip (nếu cần):
-    ```bash
-    sudo apt install python3-pip
-    ```
-### Bước 3: Kiểm tra cài đặt
-Gõ lệnh:
-```bash
-python3 --version
-```
-Phiên bản Python sẽ hiển thị nếu cài đặt thành công.
-
-## Cấu hình thêm (nếu cần)
-### Cài đặt thư viện: Sử dụng pip để cài đặt các gói thư viện cần thiết:
-
-Câu lệnh:
-```bash
-pip install <tên-thư-viện>
-```
-
-IDE gợi ý: Bạn có thể sử dụng Visual Studio Code, PyCharm, hoặc Jupyter Notebook để viết và chạy mã Python. Tùy thuộc công cụ nào bạn quen thuộc. Nếu chưa từng làm việc với bất kì IDE nào, có thể sử dụng VSCode
+![Python extension](/images/python-basic-course/python_1_3_extension.png)
