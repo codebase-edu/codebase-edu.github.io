@@ -1,11 +1,11 @@
 ---
     title: "Lập trình Python Cơ bản 2.1 - Hello world với Python"
     sidebar: python_course_sidebar
-    permalink: /python-basic-2-1-hello-wỏld-voi-python.html
+    permalink: /python-basic-2-1-hello-world-voi-python.html
     folder: python-basic-free
 ---
 
-# Python Là Gì?
+# Tạo ?
 
 Python là một ngôn ngữ lập trình bậc cao, linh hoạt, và dễ học, được tạo ra bởi **Guido van Rossum** vào năm 1991. Python nổi bật với cú pháp đơn giản, dễ đọc và cấu trúc rõ ràng, giúp lập trình viên nhanh chóng xây dựng và triển khai các ứng dụng từ cơ bản đến phức tạp.
 

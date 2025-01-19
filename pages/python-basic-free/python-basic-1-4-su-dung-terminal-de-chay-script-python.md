@@ -4,101 +4,44 @@
     permalink: /python-basic-1-4-su-dung-terminal-de-chay-script-python.html
     folder: python-basic-free
 ---
-# Hướng dẫn cài đặt Python trên Windows, macOS và Ubuntu
+## 1. Tạo file .py chứa code
 
-## 1. Cài đặt Python trên Windows
+### Bước 1: Trước tiên, bạn hãy tạo 1 folder để lưu giữ code của mình
+Công việc lập trình luôn luôn có nhiều thử thách cho dù bạn là người mới hay đã nhiều năm kinh nghiệm. Chính vì vậy, hãy tập cho mình thói quen ngăn nắp để lưu giữ kiến thích, tiết kiệm thời gian lần mò.
 
-### Bước 1: Tải Python
-1. Truy cập trang web chính thức của Python: [https://www.python.org/downloads/](https://www.python.org/downloads/)
-2. Nhấn vào nút **Download** phù hợp với phiên bản Windows (thường là bản mặc định cho hệ thống của bạn).
+1. Để bắt đầu khóa học này, mỗi người hãy tạo cho mình 1 folder để lưu giữ code của khóa học.
+2. Mở VSCode -> Open Folder... -> Trỏ đến Folder bạn vừa tạo -> Click Open.
 
-### Bước 2: Cài đặt Python
-1. Chạy tệp `.exe` vừa tải về.
-2. Đánh dấu **Add Python to PATH** (rất quan trọng, nếu không bạn sẽ phải cấu hình PATH thủ công).
-3. Nhấn **Customize Installation** nếu cần tùy chỉnh (tùy chọn), hoặc nhấn **Install Now** để cài đặt ngay.
-4. Chờ quá trình cài đặt hoàn tất, sau đó nhấn **Close**.
+### Bước 2: Tạo file .py
+Trong giao diện của VSCode, bấm vào New File để tạo 1 file Python mới.
+Tạo file có tên _python_1_4-su-dung-terminal-de-chay-script.py_
+Sau đó hãy thêm đoạn code này:
+```python
+print('Python 1-4: Hello World! From Dien tu va Lap Trinh!')
+```
+Bạn học tạm thời chưa cần biết ý nghĩa của đoạn code.
+Hãy nhấn Ctrl + S để lưu file lại (bước này rất quan trọng).
 
-### Bước 3: Kiểm tra cài đặt
-1. Mở **Command Prompt** (cmd).
+### Bước 3: Sử dụng Terminal sẵn có của VSCode để chạy Python
+1. Kiếm tra xem VSCode đã bật sẵn Terminal chưa. ( Góc dưới )
+![Terminal on VSCode](/images/python-basic-course/python-basic-1-4-terminal-python-VSCode.png)
+
 2. Gõ lệnh:
-```bash
-    python --version
-```
-    Hoặc
+Nếu Terminal chưa được bật, hãy vào Terminal -> New Terminal (phím tắt Ctrl + Shift + `) để bật Terminal mới trong VSCode nhé.
 
-    ```bash
-    python3 --version
-    ```
-    Nếu Python được cài đặt thành công, phiên bản sẽ hiển thị như sau.
-    ![Python version](/images/python-basic-course/python_1_3_version.png)
+## 2. Chạy file .py
 
-## 2. Cài đặt Python trên macOS
-### Bước 1: Kiểm tra Python có sẵn trên máy
-Mở Terminal.
+Từ Terminal.
 Gõ lệnh:
 ```bash
-python3 --version
+python3 <tên_file>
 ```
-Nếu đã có Python (phiên bản 3.x), bạn không cần cài đặt thêm. Nếu chưa có hoặc muốn nâng cấp, tiếp tục các bước dưới đây.
-
-### Bước 2: Cài đặt Python qua Homebrew
-1. Cài đặt Homebrew (nếu chưa có):
+Ví dụ:
 ```bash
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+python3 python_1_4-su-dung-terminal-de-chay-script.py
 ```
-
-2. Cài đặt Python:
-    ```bash
-    brew install python
-    ```
-
-### Bước 3: Kiểm tra cài đặt
-Gõ lệnh sau để chắc chắn là Python đã được cài:
-
+Kết quả, sẽ có dòng chữ in ra trên Terminal như sau:
 ```bash
-    python3 --version
+Python 1-4: Hello World! From Dien tu va Lap Trinh!
 ```
-
-Nếu Python được cài đặt thành công, phiên bản sẽ hiển thị như sau.
-    ![Python version](/images/python-basic-course/python_1_3_version.png)
-
-## 3. Cài đặt Python trên Ubuntu
-### Bước 1: Kiểm tra phiên bản Python hiện có
-Mở Terminal.
-Gõ lệnh:
-```bash
-    python3 --version
-```
-Hầu hết các bản Ubuntu mới đã có sẵn Python 3.x. Nếu muốn cài đặt hoặc nâng cấp, tiếp tục các bước dưới đây.
-
-### Bước 2: Cài đặt hoặc nâng cấp Python
-1. Cập nhật danh sách các gói có sẵn:
-    ```bash
-    sudo apt update
-    ```
-
-    Cài đặt Python:
-    ```bash
-    sudo apt install python3
-    ```
-
-    Cài đặt công cụ quản lý gói pip (nếu cần):
-    ```bash
-    sudo apt install python3-pip
-    ```
-### Bước 3: Kiểm tra cài đặt
-Gõ lệnh:
-```bash
-python3 --version
-```
-Phiên bản Python sẽ hiển thị nếu cài đặt thành công.
-
-## Cấu hình thêm (nếu cần)
-### Cài đặt thư viện: Sử dụng pip để cài đặt các gói thư viện cần thiết:
-
-Câu lệnh:
-```bash
-pip install <tên-thư-viện>
-```
-
-IDE gợi ý: Bạn có thể sử dụng Visual Studio Code, PyCharm, hoặc Jupyter Notebook để viết và chạy mã Python. Tùy thuộc công cụ nào bạn quen thuộc. Nếu chưa từng làm việc với bất kì IDE nào, có thể sử dụng VSCode.
+Đến đây, bạn đã biết dùng Python để ra lệnh được cho máy tính in ra dòng chữ mình muốn. Chúc mừng bạn đã chạy được dòng lệnh Python đầu tiên.
