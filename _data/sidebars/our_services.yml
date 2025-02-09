@@ -1,9 +1,8 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
-- title: Product2
-  product: Product2
-  version: 1.0
+- title: Dịch vụ của chúng tôi
+  product: Dịch vụ của chúng tôi
   folders:
 
   - title:
@@ -24,7 +23,7 @@ entries:
     folderitems:
 
     - title: Overview
-      url: /p2_landing_page.html
+      url: /our_services.html
       output: web
 
   - title: Simple Workflow
