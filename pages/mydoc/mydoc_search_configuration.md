@@ -95,7 +95,7 @@ The \_includes/topnav.html file then makes use of these values:
         <input type="text" id="search-input" placeholder="{{site.data.strings.search_placeholder_text}}">
         <ul id="results-container"></ul>
     </div>
-    <script src="{{ "js/jekyll-search.js" }}" type="text/javascript"></script>
+    <script src="{{ "assets/js/jekyll-search.js" }}" type="text/javascript"></script>
     <script type="text/javascript">
             SimpleJekyllSearch.init({
                 searchInput: document.getElementById('search-input'),

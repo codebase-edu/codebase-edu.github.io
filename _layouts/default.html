@@ -70,7 +70,7 @@
        });
     </script>
     {% endif %}
-
+    <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body>
 {% include topnav.html %}
@@ -84,6 +84,30 @@
             <!-- Sidebar Column -->
             <div class="col-md-3" id="tg-sb-sidebar">
                 {% include sidebar.html %}
+                <!-- recent blog posts in sidebar -->
+                <div class="recent-posts">
+                <h3>Recent blog posts</h3>
+                <ul>
+                    {% for post in site.posts limit:10 %}
+                    <li>
+                        <a class="post-title" href="{{ post.url | relative_url }}"><i class="fa fa-file-text-o" aria-hidden="true"></i> {{ post.title }}</a> <span class="post-date">({{ post.date | date: "%b %-d, %Y" }})</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+                    <!-- archives in sidebar -->
+                    <div class="recent-posts">
+                        <h3>Archives</h3>
+                        <a href="/archives-2024/" class="noCrossRef">2024</a> &bull;
+                        <a href="/archives-2023/" class="noCrossRef">2023</a> &bull;
+                        <a href="/archives-2022/" class="noCrossRef">2022</a> &bull;
+                        <a href="/archives-2021/" class="noCrossRef">2021</a> &bull;
+                        <a href="/archives-2020/" class="noCrossRef">2020</a> &bull;
+                        <a href="/archives-2019/" class="noCrossRef">2019</a> &bull;
+                        <a href="/tags/" class="noCrossRef">Posts by tag</a> &bull;
+                        <a href="/all/">See all posts by year</a>
+                    </div>
+                    <!-- end recent posts in sidebar -->
+                </div>
             </div>
             {% assign content_col_size = "col-md-9" %}
         {% endunless %}
@@ -93,11 +117,13 @@
             {{content}}
         </div>
     <!-- /.row -->
-</div>
-<!-- /.container -->
-</div>
-<!-- /#main -->
     </div>
+    <!-- /.container -->
+    </div>
+<!-- /#main -->
+</div>
+
+
 
 </body>
 {% if site.google_analytics %}
